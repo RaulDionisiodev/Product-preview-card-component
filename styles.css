@@ -1,5 +1,6 @@
 body {
     background-color:hsl(30, 38%, 92%);
+    font-size: 14px;
 }
 
 .main-card {
@@ -8,16 +9,26 @@ body {
     align-items: center;
     height: 100vh;
 }
-
-.product-img-div {
-    height: 20em;
+.product-container {
+    display: flex;
+    flex-direction: row;
 }
+
 .product-img {
-    height: 20em;
+   width: 20em;
+   border-radius: 1.5em 0 0 1.5em;
 }
 
 .product-text {
     background-color:hsl(0, 0%, 100%);
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 0 1.5em 1.5em 0;
     width: 20em;
-    height: 20em;
+    height: 30em;
+}
+
+.product-text span {
+    font-family: 'Montserrat', sans-serif;
+    
 }
